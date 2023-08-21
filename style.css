@@ -1,28 +1,54 @@
 body {
     text-align: center;
+    background-color: rgb(34, 34, 34);
 }
 
-/*
+
 .btn-male {
-    background-color: rgba(20, 62, 139, 0.466);
+    background-color: rgba(57, 179, 250, 0.466);
+    color: white;
     padding: 7px;
     text-align: center;
-    border: 1px solid  rgba(20, 62, 139, 0.466);
+    border: 1px solid  rgba(41, 137, 192, 0.466);
     border-radius: 7px;
-    text-shadow: 0px 0px 5px black;
+    font-weight: bold;
 }
+
+.btn-male:hover {
+    background-color: rgba(24, 92, 155, 0.466);
+  }
 
 .btn-female {
-    background-color: rgba(139, 20, 76, 0.466);
+    background-color: rgba(252, 95, 226, 0.466);
+    color: white;
     padding: 7px;
     text-align: center;
-    border: 1px solid rgba(139, 20, 76, 0.466);
+    border: 1px solid rgba(228, 17, 193, 0.466);
     border-radius: 7px;
-    text-shadow: 0px 0px 5px black;
+    font-weight: bold;
 }
-*/
+
+.btn-female:hover {
+    background-color: rgba(139, 20, 76, 0.466);
+  }
+
+.btn-lastname {
+    background-color: rgba(82, 211, 104, 0.466);
+    color: white;
+    padding: 7px;
+    text-align: center;
+    border: 1px solid  rgba(20, 139, 40, 0.466);
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.btn-lastname:hover {
+    background-color: rgba(10, 65, 19, 0.466);
+  }
+
 #name-random {
-    background-color: rgb(187, 184, 184);
-    margin: 10px 200px 10px 200px;
+    background-color: rgb(192, 191, 178);
+    margin: 10px 450px 10px 450px;
     padding: 50px 10px 50px 10px;
+    border: 1px solid black;
 }
