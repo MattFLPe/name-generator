@@ -1,13 +1,13 @@
 
-   const maleNameList = ["James", "Steven", "Kenny", 
+const maleNameList = ["James", "Steven", "Kenny", 
    "Carl", "Matthew", "Terence", 
    "Gary", "Paul", "Jason", "Peter"]
    
-   const femaleNameList = ["Mary", "Julie", "Stacey",
+const femaleNameList = ["Mary", "Julie", "Stacey",
    "Lindsay", "Abby", "Ann", "Patricia",
 "Gracie", "Kathreen", "Courtney" ]
 
-   const lastNameList = ["Johnson", "Smith", "Pearson", 
+const lastNameList = ["Johnson", "Smith", "Pearson", 
    "Jefferson", "Stephenson", "Goodman",  
    "Harris", "Porter", "Willis", "Hills"]
 
@@ -16,7 +16,7 @@ const femaleBtn = document.querySelector("[data-female]")
 const lastNamebtn = document.querySelector("[data-lastname]")
 const nameOutput = document.querySelector("#name-random")
 
-function generateFirstMaleName() {
+function generateName() {
 maleBtn.addEventListener('click', () => {
    let randomName = "";
    randomName = maleNameList[Math.floor(Math.random() * maleNameList.length)];    
@@ -28,10 +28,7 @@ lastNamebtn.addEventListener('click', () => {
    nameOutput.textContent = randomName + " " + randomLastName;
     });
 });
-};
-generateFirstMaleName();
 
-function generateFirstFemaleName() {
 femaleBtn.addEventListener('click', () => {
    let randomFemaleName = "";
    randomFemaleName = femaleNameList[Math.floor(Math.random() * femaleNameList.length)];    
@@ -44,7 +41,7 @@ lastNamebtn.addEventListener('click', () => {
     });
 });
 };
-generateFirstFemaleName();
+generateName();
 
 lastNamebtn.addEventListener('click', () => {
    let randomLastName = "";
