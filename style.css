@@ -2,18 +2,27 @@ body {
     text-align: center;
 }
 
+/*
 .btn-male {
     background-color: rgba(20, 62, 139, 0.466);
     padding: 7px;
     text-align: center;
+    border: 1px solid  rgba(20, 62, 139, 0.466);
     border-radius: 7px;
-    font-weight: bold;
+    text-shadow: 0px 0px 5px black;
 }
 
 .btn-female {
     background-color: rgba(139, 20, 76, 0.466);
     padding: 7px;
     text-align: center;
+    border: 1px solid rgba(139, 20, 76, 0.466);
     border-radius: 7px;
-    font-weight: bold;
+    text-shadow: 0px 0px 5px black;
+}
+*/
+#name-random {
+    background-color: rgb(187, 184, 184);
+    margin: 10px 200px 10px 200px;
+    padding: 50px 10px 50px 10px;
 }
