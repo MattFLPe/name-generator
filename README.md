@@ -1,2 +1,2 @@
 # name-generator
- A random name generator built using JavaScript.
+ A random name generator, which I built using JavaScript.
